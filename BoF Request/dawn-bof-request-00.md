@@ -141,4 +141,7 @@ To allow evaluation of your proposal, please include the following items:
          - https://datatracker.ietf.org/doc/draft-cui-dns-native-agent-naming-resolution
          - https://datatracker.ietf.org/doc/draft-liang-agentdns
          - https://datatracker.ietf.org/doc/draft-pioli-agent-discovery
+         - https://datatracker.ietf.org/doc/draft-am-layered-ai-discovery-architecture/
+         - https://datatracker.ietf.org/doc/draft-mapmw-task-discovery/
+
   
