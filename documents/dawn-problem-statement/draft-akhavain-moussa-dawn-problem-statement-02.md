@@ -221,7 +221,9 @@ Operators need to discover and inspect entities for operational purposes: auditi
 
 ## Discovery and OAM {#sec-oam}
 
-TBD
+Management and diagnostics for a discovery system are fundamental for successful deployment. It should be possible for operational managers to determine the behavior and the reasons for the behavior of the discovery system. Tooling to enable this function should be integral to the design of any solution and specific requirements for operational considerations can be found in {{?I-D.king-dawn-requirements}}.
+
+Some guidance (specific to DNS, but more generally applicable to any discovery system) can be found in {{!RFC6168}}.
 
 # Current Approaches and Their Limitations {#sec-limits}
 
