@@ -42,7 +42,10 @@ particular model, and what data it needs as input.
 An interoperable and generic discovery mechanism is needed that builds
 on existing protocols and tools, benefits from an established trust model,
 supports proven delegation and federation architectures, and allows
-organisations to independently publish discovery information.
+organisations to independently publish discovery information. Such a mechanism
+may need to be bootstrapped from key configuration parameters (such as what 
+type of entity to search for) and relies on a common understanding of the data
+models used to publish discoverable information.
 
 Providing a decentralised and interoperable discovery mechanism is 
 essential to protecting the openness of the Internet and protecting
