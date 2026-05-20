@@ -9,7 +9,7 @@ to operate correctly, the components must be able to discover each
 other. For complete generality, we call these components "entities".
 Entities may be tasks, workloads, endpoints, services, AI agents, etc.
 
-In each case, an entity needs knowledge of remote entities before 
+In each case, an entity needs knowledge of other entities before 
 interaction can proceed: what they are, what they offer, and whether
 they can be trusted. Such knowledge could be obtained through static
 configuration, but this approach is impractical at scale and across
