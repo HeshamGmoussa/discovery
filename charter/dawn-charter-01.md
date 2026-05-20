@@ -40,7 +40,7 @@ it can support, whether it is reactive or proactive, whether it depends on a
 particular model, and what data it needs as input.
 
 An interoperable and generic discovery mechanism is needed that builds
-on existing protocols and tools, benefits from an established trust model,
+on existing protocols and tools, benefits from established trust models,
 supports proven delegation and federation architectures, and allows
 organisations to independently publish discovery information. Such a mechanism
 may need to be bootstrapped from key configuration parameters (such as what 
