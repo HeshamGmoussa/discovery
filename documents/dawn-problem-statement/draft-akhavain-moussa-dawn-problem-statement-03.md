@@ -191,7 +191,7 @@ It is useful to categorise some common entity types to show the different behavi
 
 {{taxonomy}} presents a table of entity types. This is not an exclusive list and it is expected that more entity types will continue to be added as new use cases are developed. The table shows:
 
-Identity Binging:
+Identity Binding:
 : TBD
 
 Control Ownership:
