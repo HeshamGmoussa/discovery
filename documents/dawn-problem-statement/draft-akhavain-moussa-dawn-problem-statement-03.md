@@ -164,7 +164,7 @@ Consider a task owner (e.g., an entity such as an end user, AI agent, model, dat
 
 The example above illustrates the broader concept of discovery within an ecosystem. Other factors such as entity's mobility can further complicate the problem space. The example, underscore the significance and complexity of the problem space that DAWN aims to address. It highlights why a structured problem definition, clear requirements, and well‑designed solutions are essential for enabling robust, scalable, and interoperable discovery across diverse entities and use cases.
 
-# Applicability
+# Applicability {#sec-applicability}
 The challenges outlined in the Motivation section underscore the need for mechanisms that allow entities and other discoverable entities to dynamically locate and interact within a decentralised ecosystem. DAWN is applicable in scenarios where discovery serves as a key enabler for autonomous operation, collaboration, and adaptive decision-making. In such systems, entities may need to find other entities or entities, while task owners including agents, users, or services may advertise tasks that suitable entities can discover and execute. Data sources can make datasets discoverable to support reasoning or training by AI agents and models. Compute resources may advertise their capabilities, serving as rendezvous points for entities, models, and datasets to facilitate training workflows. Similarly, models may advertise their functionality to allow users or entities to discover them for inference tasks. The following subsections provides more details, illustrating the contexts in which DAWN provides value and a consistent foundation for the functional requirements and design considerations.
 
 ## Entities discovering Entities
@@ -185,7 +185,7 @@ Entities and models often require access to compute resources to perform tasks s
 Users, agents, and services (i.e., entities) may need to leverage pre-trained models for inference in tasks such as prediction, recommendation, or decision-making. Models may be distributed across various systems or administrative domains, and their availability, capabilities, or performance characteristics can evolve over time. DAWN supports mechanisms to discover models that are most suitable for different contexts. This enables users, agents, services, etc. to dynamically adapt to newly available models, take advantage of improvements, and ensure interoperability in heterogeneous and evolving environments.
 
 
-## Taxonomy of Entities
+## Taxonomy of Entities {#sec-taxonomy}
 
 Classifying entities along multiple dimensions helps derive common as well as specific requirements in discovery processes and protocols for different types of entities.
 
