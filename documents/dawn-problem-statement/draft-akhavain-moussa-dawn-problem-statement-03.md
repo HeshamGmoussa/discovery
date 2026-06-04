@@ -41,6 +41,15 @@ author:
     country: UK
     email: daniel@olddog.co.uk
 
+contributor:
+-
+    ins: K. Yao
+    name: Kehan Yao
+    org: China Mobile
+    country: China
+    email: yaokehan@chinamobile.com
+-
+
 normative:
 
 informative:
