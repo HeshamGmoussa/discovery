@@ -28,6 +28,13 @@ author:
     country: Canada
     email: hesham.moussa@huawei.com
 
+  -
+    ins: A. Akhavain
+    name: Arashmid Akhavain
+    org: Huawei Technologies Canada
+    country: Canada
+    email: arashmid.akhavain@huawei.com
+
 normative:
 
 informative:
@@ -49,11 +56,11 @@ DAWN frames the discovery challenge as the need for interoperable, scalable mech
 This document is expected to continuously evolve as solutions to the DAWN discovery problem continue to evolve. The following is to set the scope of the current version of the document as a reference:
 
 
-- infrastructures evaluated: DNS family (DNS {{RFC 1123}}, DNS‑SD {{RFC6763}}, SVCB/HTTPS {{RFC 9460}}, TXT), DNS‑AID {{?I-D.mozleywilliams-dnsop-dnsaid}}, HTTP/.well‑known {{RFC8615}} and WebFinger {{RFC 7033}}, A2A agent cards and Agntcy, MCP discovery, service registries (Consul, Kubernetes), multicast local discovery (mDNS {{RFC 6762}}/SSDP), centralized catalogs, P2P/DHT, search/crawler and semantic indexes, push/pubsub (LISP {{RFC 9437}}) channels, CATS (Compute-Aware Traffic Steering) — IETF working group, [Hesham][This is an exapandable list, feel free to include additional infrastructures to consider]. 
+- infrastructures evaluated: DNS family (DNS {{?RFC1123}}, DNS‑SD {{?RFC6763}}, SVCB/HTTPS {{?RFC9460}}, TXT), DNS‑AID {{?I-D.mozleywilliams-dnsop-dnsaid}}, HTTP/.well‑known {{?RFC8615}} and WebFinger {{?RFC7033}}, A2A agent cards and Agntcy, MCP discovery, service registries (Consul, Kubernetes), multicast local discovery (mDNS {{?RFC6762}}/SSDP), centralized catalogs, P2P/DHT, search/crawler and semantic indexes, push/pubsub (LISP {{?RFC9437}}) channels, CATS (Compute-Aware Traffic Steering) — IETF working group, [Hesham][This is an exapandable list, feel free to include additional infrastructures to consider]. 
 
 - Discovery targets: agents, tools, skills, tasks, workloads, datasets, and resources.
 
-- Requirements baseline: the DAWN problem statement {{?I-D.akhavain-moussa-dawn-problem-statement}}, the REQ‑DISC requirements {{?I-D.king-dawn-requirements}}, and use cases {{DRAFT-TBD}} documents.
+- Requirements baseline: the DAWN problem statement {{?I-D.akhavain-moussa-dawn-problem-statement}}, the REQ‑DISC requirements {{?I-D.king-dawn-requirements}}, and use cases [DRAFT-TBD] documents.
 
 - Primary evaluation focus: security, privacy, applicability to DAWN requirements, flexibility for multiple entity types and deployment models, operational suitability, and mitigation and development cost.
 
@@ -108,13 +115,13 @@ This document therefore aims to produce actionable outcomes for implementers and
 ## Analysis Methodology
 
 ### Overview 
-We adopt an itemized analytical approach where each discovery infrastructure is examined against the same set of evaluation metrics. Figure 1 of the problem statement document {{?I-D.akhavain-moussa-problem-statement}} serves as the reference architecture accepted by DAWN. As per this architecture, entities are to be discovered using their discoverable information registered into the discovery infrastructure. Fields of the discoverable information are divided into mandatory and optional. As an initial baseline, a single discoverable information model for evaluation is considered for all types of entities consisting of mandatory fields that cover the following aspects: entity identifier, standard entity descriptor (what is it, what can it do, how to interact with it...etc), human summary (for ease of accessibility by humans), endpoints/pointers, conveying trust related material, privacy/access indicators, freshness/lifecycle (i.e. status), operational metadata, indexing hints, current status, and entity provenance.
+We adopt an itemized analytical approach where each discovery infrastructure is examined against the same set of evaluation metrics. Figure 1 of the problem statement document {{?I-D.akhavain-moussa-dawn-problem-statement}} serves as the reference architecture accepted by DAWN. As per this architecture, entities are to be discovered using their discoverable information registered into the discovery infrastructure. Fields of the discoverable information are divided into mandatory and optional. As an initial baseline, a single discoverable information model for evaluation is considered for all types of entities consisting of mandatory fields that cover the following aspects: entity identifier, standard entity descriptor (what is it, what can it do, how to interact with it...etc), human summary (for ease of accessibility by humans), endpoints/pointers, conveying trust related material, privacy/access indicators, freshness/lifecycle (i.e. status), operational metadata, indexing hints, current status, and entity provenance.
 
 ### Evaluation steps
 
 - Preparation step: 
    - Extract REQ‑DISC items from the requirements document {{?I-D.king-dawn-requirements}} and map them to infrastructure evaluation criteria.
-   - Extract use case-specific discovery requirement as per {{?I-D.XXXX-dawn-usecases}}
+   - Extract use case-specific discovery requirement as per I-D.XXXX-dawn-usecases
 
 - Evaluate Level of Coverage of REQ-DISC: For each infrastructure, evaluate coverage of REQ‑DISC items, use case-specific requirements, and discoverable information fields using a three‑level scale: Full, Partial, None. Also note native encoding of each infrastructure were, for each, record one of: native support, common extension to the infrastructure, hybrid pattern, or no practical support without extensive redesign.
 
@@ -485,11 +492,11 @@ List includes: Consul, etcd, Eureka, Kubernetes Service DNS, service meshes.
 **to be completed**
 
 
-### HTTP/.well‑known {{RFC8615}}
+### HTTP/.well‑known {{?RFC8615}}
 **to be completed**
 
 
-### WebFinger {{RFC 7033}}
+### WebFinger {{?RFC7033}}
 **to be completed**
 
 
@@ -525,3 +532,17 @@ List includes: Vendor app stores, plugin registries, dataset catalogs.
 ## Authors' Addresses
 
 ### Potential topics for the use case document.
+
+--- back
+
+# References
+
+## Normative References
+
+[^RFC1123]: RFC 1123
+[^RFC6763]: RFC 6763
+[^RFC9460]: RFC 9460
+[^RFC8615]: RFC 8615
+[^RFC7033]: RFC 7033
+[^RFC6762]: RFC 6762
+[^RFC9437]: RFC 9437
