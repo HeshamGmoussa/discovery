@@ -93,9 +93,9 @@ scope of the current version of the document as a reference:
   service registries (Consul, Kubernetes), multicast local discovery
   (mDNS {{?RFC6762}}/SSDP), centralized catalogs, P2P/DHT,
   search/crawler and semantic indexes, push/pubsub (LISP {{?RFC9437}})
-  channels, CATS (Compute-Aware Traffic Steering). This is an
-  exapandable list and shall continue to grow as additional DAWN
-  solutions become available.
+  channels, CATS (Compute-Aware Traffic Steering). This is an expandable
+  list and shall continue to grow as additional DAWN solutions become
+  available.
 
 - Discovery targets: agents, tools, skills, tasks, workloads, datasets,
   and resources.
@@ -252,7 +252,7 @@ entity provenance.
 
 - Preparation step:
   - Select, based on the criteria mentioned in section {{sec-scope}},
-    the discovey mechanisms to be evaluated.
+    the discovery mechanisms to be evaluated.
   - Extract REQ‑DISC items from the requirements document
     {{?I-D.king-dawn-requirements}} and map them to Mechanism evaluation
     criteria.
@@ -886,7 +886,7 @@ revisions to the current document.
   compute and network metrics, and policy‑driven selection. It is
   explicitly compute‑centric: the primitives, metrics, and selection
   logic are designed for operators to be able to locate and steer
-  traffit to compute sites and service instances, not for discovering
+  traffic to compute sites and service instances, not for discovering
   arbitrary entity types (people, documents, sensors, or generic
   agents).
 
@@ -1055,7 +1055,7 @@ meshes.
       per‑field integrity, and no offline verification. Trust is tied
       entirely to the HTTPS endpoint; clients cannot verify provenance
       across domains. Enumeration resistance, rate limiting, and abuse
-      controls are deployment specific and not standardised. A
+      controls are deployment specific and not standardized. A
       compromised server can return forged or misleading metadata
       without detection.
 
@@ -1245,7 +1245,7 @@ List includes: Vendor app stores, plugin registries, dataset catalogs.
     - It lacks flexibility, ease of operation, and is costly to maintain
       information freshness.
     - Manual discovery may serve as a fallback or bootstrap mechanism to
-      discovery substrate componenets and fixed elements, but it cannot
+      discovery substrate components and fixed elements, but it cannot
       function as a general discovery mechanism for DAWN to provide its
       intended discovery services.
 
