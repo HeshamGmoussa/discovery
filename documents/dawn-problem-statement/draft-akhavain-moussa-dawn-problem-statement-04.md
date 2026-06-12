@@ -80,7 +80,7 @@ protocol.
 Entities in entity ecosystem collaborate to render services and follow
 the lifecycle shown in {{fig-lifecycle}}.
 
-```
+~~~~
 +------------------------+     +-------------------------------+
 | Entity                 |     |          Entity system        |
 | (e.g., AI agent, task) |---->|       registration process    |
@@ -116,10 +116,8 @@ the lifecycle shown in {{fig-lifecycle}}.
                             |             Monitoring             |
                             +------------------------------------+
 
-```
-
-{: #fig-lifecycle title="An example of Entity Lifecycle"
-artwork-align="center"}
+~~~~
+{: #fig-lifecycle title="An example of Entity Lifecycle" artwork-align="center"}
 
 As shown in {{fig-lifecycle}}, an entity will pass through a set of
 important functional blocks before it becomes active and start
@@ -456,7 +454,7 @@ The following presents a table of entity types. This is not an exclusive
 list and it is expected that more entity types will continue to be added
 as new use cases are developed. The table shows:
 
-```
+~~~~
 +-----------+----------+------------+-------------+--------------+
 |  Entity   | Identity |  Control   | Responsible |   Dynamic    |
 |   Type    | Binding  |  Ownership |    Party    |Characteristic|
@@ -476,9 +474,9 @@ as new use cases are developed. The table shows:
 |Application| IP/Port  |   Owning   |  Developer  |    Medium    |
 |  Endpoint | /Instance|Organization| & Deployer  |              |
 +-----------+----------+------------+-------------+--------------+
-```
+~~~~
+{: #taxonomy title="Taxonomy of Entities" artwork-align="center"}
 
-{: #taxonomy title="Taxonomy of Entities"}
 
 # Functional Requirements {#sec-func-req}
 
@@ -820,7 +818,6 @@ This document makes no requests of IANA.
   troubleshooting, compliance, or automation.
 
 # Acknowledgements {#sec-ack}
-
 {:numbered="false"}
 
 Thanks to Adrian Farrel and Linda Dunbar for review comments.
