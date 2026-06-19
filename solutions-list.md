@@ -3,8 +3,6 @@
 This is a working list of solution proposals and related projects that may be
 relevant to DAWN.
 
-Last reviewed: 2026-06-19.
-
 The list is intended to show the breadth of current activity and to help DAWN
 participants track potentially relevant work. Inclusion is descriptive only. It
 does not imply endorsement by the IETF, by any DAWN work effort, or by this
