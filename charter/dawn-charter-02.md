@@ -29,7 +29,7 @@ publish discovery information.
 ## Scope
 
 Discovery in the DAWN context is limited to being able to "find me an
-entity to talk to" within a collaborating organization.  This includes
+entity to talk to" within collaborating organizations.  This includes
 communication about the following attributes:
 
 - What is the entity's type and classification?
